@@ -1,0 +1,63 @@
+# ========================
+# SÄKERHET & MILJÖVARIABLER
+# ========================
+.env
+# (.env.example är okej att pusha, så vi ignorerar den inte)
+
+# ========================
+# FRONTEND (Node / Vite)
+# ========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+
+# ========================
+# BACKEND (Java / Spring Boot)
+# ========================
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+backend/src/main/resources/application.properties
+
+# ========================
+# IDE & EDITORER
+# ========================
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ========================
+# OS-FILER (Windows / Mac)
+# ========================
+Thumbs.db
+desktop.ini
+.DS_Store
