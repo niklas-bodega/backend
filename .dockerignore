@@ -8,4 +8,4 @@ mvnw.cmd
 .git
 .gitignore
 Dockerfile
-.env
+src/main/resources/.env

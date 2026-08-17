@@ -1,7 +1,7 @@
 # ========================
 # SÄKERHET & MILJÖVARIABLER
 # ========================
-.env
+src/main/resources/.env
 # (.env.example är okej att pusha, så vi ignorerar den inte)
 
 # ========================
