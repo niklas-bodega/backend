@@ -1,0 +1,16 @@
+package com.lasias.hostelbookingbackend.dtos;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class AvailableRoomsDTO {
+   private RoomTypeDTO roomType;
+   private Integer numberOfAvailableRooms;
+}
